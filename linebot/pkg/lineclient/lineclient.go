@@ -1,7 +1,7 @@
 package lineclient
 
 import (
-	"github.com/celengmd/LINE/linethrift/talkservice"
+	"github.com/celengmd/bots/linethrift/talkservice"
 	"golang.org/x/xerrors"
 )
 

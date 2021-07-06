@@ -4,10 +4,10 @@ import (
 	"context"
 	"log"
 
-	"github.com/mopeneko/line-selfbot/linebot/pkg/config"
-	"github.com/mopeneko/line-selfbot/linebot/pkg/lineclient"
-	"github.com/mopeneko/line-selfbot/linebot/pkg/linetoken/androidlite"
-	"github.com/mopeneko/line-selfbot/linebot/poll"
+	"github.com/celengm/bots/linebot/pkg/config"
+	"github.com/celengm/bots/linebot/pkg/lineclient"
+	"github.com/celengm/bots/linebot/pkg/linetoken/androidlite"
+	"github.com/celengm/bots/linebot/poll"
 	"golang.org/x/xerrors"
 )
 

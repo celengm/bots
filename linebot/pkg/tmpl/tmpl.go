@@ -7,8 +7,8 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/celengm/LINE/linebot/pkg/lineclient"
-	"github.com/celengm/LINE/linethrift/talkservice"
+	"github.com/celengm/bots/linebot/pkg/lineclient"
+	"github.com/celengm/bots/linethrift/talkservice"
 )
 
 //go:embed templates/*.tmpl

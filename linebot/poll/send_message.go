@@ -6,9 +6,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/celengm/LINE/linebot/pkg/lineclient"
-	"github.com/celengm/LINE/linebot/pkg/tmpl"
-	"github.com/celengm/LINE/linethrift/talkservice"
+	"github.com/celengm/bots/linebot/pkg/lineclient"
+	"github.com/celengm/bots/linebot/pkg/tmpl"
+	"github.com/celengm/bots/linethrift/talkservice"
 )
 
 func sendMessage(ctx context.Context, op *talkservice.Operation, client *lineclient.LINEClient) error {

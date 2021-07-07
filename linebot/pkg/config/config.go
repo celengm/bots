@@ -19,7 +19,7 @@ func NewConfig() Config {
 		TalkServicePathForPolling: "/P4",
 		QrPath:                    "/acct/lgn/sq/v1",
 		PermitNoticePath:          "/acct/lp/lgn/sq/v1",
-		UserAgent:                 "LLA/11.11.1 Nexus Mozilla/5.0 (Linux; Android 6.0; CPH1609 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36",
-		LINEApp:                   "ANDROID\t11.11.1\tAndroid OS\t10;SECONDARY",
+		UserAgent:                 "LLA/2.13.2 Nexus 7 10.0.0",
+		LINEApp:                   "ANDROID\t11.11.1\tAndroid OS\t10ANDROIDLITE\t2.13.2\tAndroid OS\t10;SECONDARY",
 	}
 }

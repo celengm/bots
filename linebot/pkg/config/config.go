@@ -20,6 +20,6 @@ func NewConfig() Config {
 		QrPath:                    "/acct/lgn/sq/v1",
 		PermitNoticePath:          "/acct/lp/lgn/sq/v1",
 		UserAgent:                 "LLA/2.13.2 Nexus 7 10.0.0",
-		LINEApp:                   "ANDROID\t10.20.1\tAndroid OS\t10;SECONDARY",
+		LINEApp:                   "ANDROID\t10.20.1\tAndroid OS\t10;SECONDARYANDROID\t10.20.1\tAndroid OS\t10;SECONDARY",
 	}
 }

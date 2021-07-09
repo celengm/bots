@@ -53,7 +53,7 @@ func Poll(ctx context.Context, client *lineclient.LINEClient) {
 
 				continue
 
-			case talkservice.OpType_SEND_MESSAGE:
+			case talkservice.OpType_RECEIVE_MESSAGE:
 				err := sendMessage(ctx, op, client)
 				if err != nil {
 					log.Printf("%+v\n", err)
